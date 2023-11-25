@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="./assets/style.css">
   </head>
   <body>
     <header id="header">
@@ -126,13 +127,22 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>CSS notes will go here</li>
+          <li>margin -  acts much like a margin in a word processing document. A margin property indicates how much space we want around the outside of an element. The margin is not visible on the page; it merely adds a buffer. When we set the margin property to 0, we are indicating that we want NO extra space around the element.
+          </li>
+          <li>padding - is often confused with margin, but it is not the same thing. The padding property adds space around the content inside an element. When you increase padding, you are actually making the entire element bigger! That is because the padding, while transparent, is located inside the element, whereas the margin is the transparent buffer outside an element.
+          </li>
+          <li>.card - an example of a class selector, the class in this case is card. Any HTML element assigned to the class, card, will gain these property assignments from the CSS.
+          </li>
+          <li>width - defines the width of the element
+          </li>
+          <li>border - a box element between the margin and the padding
+          </li>
+          <li>boxshadow - adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radius, and colour. In our example, the X offset is 5px and defines the width or extent of the shadow on the X axis (or to the right of the box); the Y offset is 10px and defines the extent on the Y axis (or just below the box). We haven’t defined the blur or spread radius here, but you’ll learn more about this in time. We’ve used an HTML hexadecimal code to define the colour.
+          </li>
         </ul>
       </section>
    
-      <section class="card" id="git-section">
-   
-      </section>
+      <section class="card" id="git-section">   
         <h2>Git</h2>
         <ul>
           <li>git config --global user.name “[firstname lastname]” - set a name that is identifiable for credit when review version history
@@ -211,6 +221,7 @@
             matches or wildcard globs.
           </li>
         </ul>
+      </section>
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>

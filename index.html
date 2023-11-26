@@ -10,7 +10,7 @@
   <body>
     <header id="header">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img src="./assets/space-spirograph.png" alt="Profile image of spirograph overlaying a starry background." />
       <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
@@ -226,7 +226,109 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>JavaScript notes will go here
+          <li>null - the absence of an object but it is used less frequently than undefined
+          </li>
+          <li>undefined - the absence of a value
+          </li>
+          <li>boolean - true or false
+          </li>
+          <li>number - stores floating-point numbers in a range of ±(2<sup>-1074</sup> to 2<sup>1024</sup>)
+          </li>
+          <li>BigInt - can store large integers beyond the safe limit
+          </li>
+          <li>string - text data
+          </li>
+          <li>array - a structure that allows you to store multiple values in a single reference. 
+          </li>
+          <li>object - everything in javascript is an object and can be stored in a variable
+          </li>
+          <li>Symbol - a unique and immutable primitive value and may be used as the key of an Object property
+          </li>
+          <li>Data Properties
+            <ul>
+              <li>value - retrieved by a get access of the property. Can be any JavaScript value.
+              </li>
+              <li>writable - boolean value indicating if the property can be changed with an assignment.
+              </li>
+              <li>enumerable - boolean value indicating if the property can be enumerated by a for...in loop. See also Enumerability and ownership of properties for how enumerability interacts with other functions and syntaxes.
+              </li>
+              <li>configurable - boolean value indicating if the property can be deleted, can be changed to an accessor property, and can have its attributes changed.
+              </li>
+            </ul>
+          </li>
+          <li>Accessor Properties
+            <ul>
+              <li>get - a function called with an empty argument list to retrieve the property value whenever a get access to the value is performed.
+              </li>
+              <li>set - a function called with an argument that contains the assigned value. Executed whenever a specified property is attempted to be changed. 
+              </li>
+              <li>enumerable
+              </li>
+              <li>configurable
+              </li>
+            </ul>
+          </li>
+          <li>Dates - built in date utility in javascript
+          </li>
+          <li>Operators
+            <ul>
+              <li>Addition (+) - Add two numbers together or combine two strings.
+              </li>
+              <li>Subtraction (-), Multiplication (*), Division (/) - basic maths
+              </li>
+              <li>Assignment (=) - assigns a value to a variable.
+              </li>
+              <li>Strict Equality (===) - This performs a test to see if two values are equal and of the same data type. It returns a true/false (Boolean) result.
+              </li>
+              <li>Not (!) - This returns the logically opposite value of what it precedes.
+              </li>
+              <li>Does not equal (!==) - When it is used alongside the Equality operator, the negation operator tests whether two values are not equal.
+              </li>
+            </ul>
+          </li>
+          <li>Conditionals - are code structures used to test if an expression returns true or not. A very common form of conditionals is the if...else statement.
+            <ul>
+              <li>if - the first condition of a conditional statement
+              </li>
+              <li>else if - subsequent conditions if the first condition is falsy, the computer will continue to check for these until it finds one that is truthy, after which it will execute the code in the curly brackets and break out of the if statement
+              </li>
+            </ul>
+          </li>
+          <li>Functions - are a way of packaging functionality that you wish to reuse. It's possible to define a body of code as a function that executes when you call the function name in your code. This is a good alternative to repeatedly writing the same code.
+            <ul>
+              <li>a block of code that only executes when it is called upon instead of immediately like if statements or for loops.                
+              </li>
+              <li>If you see something which looks like a variable name, but it's followed by parentheses— () —it is likely a function. Functions often take arguments: bits of data they need to do their job. Arguments go inside the parentheses, separated by commas if there is more than one argument. For example, the alert() function makes a pop-up box appear inside the browser window, but we need to give it a string as an argument to tell the function what message to display.
+              </li>              
+            </ul>
+          </li>
+          <li>Events - websites need these to be interactive, they listen for activity and run code in response
+          </li>
+          <li>JSON - my beloved JSON i know JSON i love JSON
+            <ul>
+              <li>a lightweight data-interchange format, derived from JavaScript, but used by many programming languages. JSON builds universal data structures that can be transferred between different environments and even across languages.
+              </li>
+            </ul>
+          </li>
+          <li>Type Coercion - JavaScript is a weakly typed language. This means that you can often use a value of one type where another type is expected, and the language will convert it to the right type for you. To do so, JavaScript defines a handful of coercion rules.
+            <ul>
+              <li>Primitive coercion - is used where a primitive value is expected, but there's no strong preference for what the actual type should be. This is usually when a string, a number, or a BigInt are equally acceptable.
+              </li>
+              <li>Numeric coercion - Sometimes the language specifically expects a number or a BigInt, other times, it may tolerate either and perform different operations depending on the operand's type.
+              </li>
+              <li>Other coercions - All data types, except Null, Undefined, and Symbol, have their respective coercion process.
+              </li>
+            </ul>
+          </li>
+          <li>Falsy - A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false.            
+          </li>
+          <li>Truthy - All other values, including a Boolean with the value of true, are considered truthy.
+          </li>
+          <li>Control Flow - is the order in which a computer executes code in a file. Typically, JavaScript code is executed from top to bottom. However, using conditional statements such as if statements allows us to interrupt control flow.
+          </li>
+          <li>for - a loop that uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. Developers must use another statement, such as the conditional if statement that we just learned, to interrupt the control flow by executing a block of code a specific number of times.
+          </li>
+          <li>Math.floor() and Math.random() are both properties of JavaScript's built-in Math object that can be used together to generate a random number.
           </li>
         </ul>
       </section>
